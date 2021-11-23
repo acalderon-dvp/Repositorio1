@@ -1,0 +1,12 @@
+name: Workflow-repo1
+on: [ pull_request, release, push ]
+jobs:
+  trabajo1:
+    runs-on: ubuntu-leatest
+    steps:
+      - name: paso1
+        uses: acalderon-dvp/actions@v1
+        with:
+          variable: 'Adrian'
+      - name: paso2
+        run: echo 'La fecha actual es {{ steps.paso1.outputs.fecha }}'
