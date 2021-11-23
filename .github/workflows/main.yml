@@ -2,7 +2,7 @@ name: Workflow-repo1
 on: [ pull_request, release, push ]
 jobs:
   trabajo1:
-    runs-on: ubuntu-leatest
+    runs-on: ubuntu-latest
     steps:
       - name: paso1
         uses: acalderon-dvp/actions@v1
