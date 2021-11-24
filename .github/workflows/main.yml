@@ -9,4 +9,5 @@ jobs:
         with:
           variable: 'Adrian'
       - name: paso2
-        run: echo 'La fecha actual es {{ steps.paso1.outputs.fecha }}'
+        run: echo 'Hello desde el workflow'
+        shell: bash
