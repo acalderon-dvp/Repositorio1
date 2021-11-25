@@ -6,9 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run action-localizable
+      - name: Ejecutar accion de repo privada
         uses: acalderon-dvp/Repositorio2@v1
-        #uses: viavansi/github-actions/action-localize@v1
+        
+  job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run action-localizable
+        uses: viavansi/github-actions/action-localize@v1
         #with:
         #  repository: viavansi/github-actions
         #  token: ${{ secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS }}
