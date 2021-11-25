@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: paso1
         uses: acalderon-dvp/actions@v1
-        with:
-          variable: 'Adrian'
+#        with:
+#          variable: 'Adrian'
       - name: paso2
         run: echo 'Hello desde el workflow'
         shell: bash
