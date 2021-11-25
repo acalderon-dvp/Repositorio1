@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run action-localizable
-        uses: viavansi/github-actions@v1
+        uses: viavansi/github-actions/action-localize@1
