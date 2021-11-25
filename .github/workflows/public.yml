@@ -4,6 +4,7 @@ jobs:
   trabajo1:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: paso1
         uses: acalderon-dvp/actions@v1
 #        with:
