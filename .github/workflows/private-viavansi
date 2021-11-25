@@ -1,0 +1,14 @@
+name: Localize
+on: [ release, workflow_dispatch ]
+jobs: 
+
+  job-java: #nombre del job
+    runs-on: [self-hosted, rancher-ci]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: viavansi/github-actions/action-localize
+          token: ${{secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS}}
+        
+        - name: Run action-localizable
+          use: ./action-localize
