@@ -1,4 +1,4 @@
-name: Workflow-repo1
+name: public
 on: [ workflow_dispatch ]
 jobs:
   trabajo1:
