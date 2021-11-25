@@ -1,5 +1,5 @@
 name: Workflow-repo1
-on: [ pull_request, release, push ]
+on: [ workflow_dispatch ]
 jobs:
   trabajo1:
     runs-on: ubuntu-latest
