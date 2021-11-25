@@ -7,7 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run action-localizable
-        uses: viavansi/github-actions/action-localize@1
-        with:
-          repository: viavansi/github-actions
-          token: ${{ secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS }}
+        uses: viavansi/ms-sdk-android@v3.7.29
+        #uses: viavansi/github-actions/action-localize@1
+        #with:
+        #  repository: viavansi/github-actions
+        #  token: ${{ secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS }}
