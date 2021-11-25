@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: viavansi/github-actions/action-localize
+          repository: viavansi/github-actions
           token: ${{secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS}}
         
       - name: Run action-localize
