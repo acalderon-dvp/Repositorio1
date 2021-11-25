@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Ejecutar accion de repo privada
-        uses: acalderon-dvp/Repositorio2@v1
+        uses: acalderon-dvp/Repositorio2@main
         
   #job-2:
   #  runs-on: ubuntu-latest
