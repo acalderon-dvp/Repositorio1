@@ -2,7 +2,7 @@ name: Localize
 on: [ release, workflow_dispatch ]
 jobs: 
 
-  job-java: #nombre del job
+  job-1: #nombre del job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
