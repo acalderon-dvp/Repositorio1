@@ -8,6 +8,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: acalderon-dvp/Repositorio2@main
+          token: ${{ secrets.PRIVATE_ACCESS_TOKEN}}
         
       - name: Uso de accion
         uses: ./
