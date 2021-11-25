@@ -1,14 +1,14 @@
 name: public
 on: [ workflow_dispatch ]
 jobs:
-  trabajo1:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: paso1
         uses: acalderon-dvp/actions@v1
-#        with:
-#          variable: 'Adrian'
+
       - name: paso2
         run: echo 'Hello desde el workflow'
         shell: bash
