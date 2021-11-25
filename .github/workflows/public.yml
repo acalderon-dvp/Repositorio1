@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: paso1
-        uses: acalderon-dvp/actions/actions@v1
+        uses: acalderon-dvp/actions/actions@main
 
       - name: paso2
         run: echo 'Hello desde el workflow'
