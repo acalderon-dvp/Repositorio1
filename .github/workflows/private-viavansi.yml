@@ -3,7 +3,7 @@ on: [ release, workflow_dispatch ]
 jobs: 
 
   job-java: #nombre del job
-    runs-on: [self-hosted, rancher-ci]
+    runs-on: [ windows-latest]
     steps:
       - uses: actions/checkout@v2
         with:
