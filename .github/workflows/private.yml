@@ -10,8 +10,11 @@ jobs:
           repository: acalderon-dvp/Repositorio2
           token: ${{ secrets.PRIVATE_ACCESS_TOKEN}}
         
-      - name: Uso de accion
+      - name: Uso de accion en raiz
         uses: ./
+        
+      - name: Uso de accion en directorio
+        uses: ./actions
         
         
   #job-2:
