@@ -10,5 +10,5 @@ jobs:
           repository: viavansi/github-actions/action-localize
           token: ${{secrets.PRIVATE_ACCESS_TOKEN_FOR_ACTIONS}}
         
-        - name: Run action-localizable
-          use: ./action-localize
+      - name: Run action-localize
+        uses: ./action-localize
