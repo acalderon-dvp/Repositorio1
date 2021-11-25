@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run action-localizable
-        uses: acalderon-dvp/Repositorio2@v2
+        uses: acalderon-dvp/Repositorio2@v1
         #uses: viavansi/github-actions/action-localize@v1
         #with:
         #  repository: viavansi/github-actions
